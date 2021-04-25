@@ -56,3 +56,20 @@ html,body{
 .image-slide__image img{
     max-width: 100%;
 }
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after{
+    color:#fff;
+    font-size: 80px;
+}
+
+.image-slider .swiper-pagination{
+    bottom: 0;
+}
+
+.image-slider .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
